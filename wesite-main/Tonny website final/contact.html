@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+        body{
+            background-image: url("pexels-paul-voie-2627945.jpg" );        
+        }
+        form{
+            max-width: 550px;
+            width: 90%;
+            background: white;
+            padding: 40px;
+            margin: 17vh 0 auto 300px;
+            border-radius: 3px ;
+            box-sizing: border-box;
+        }
+        label{
+            display: block;
+            margin: 20px 0;
+        }
+        input{
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            outline: none;
+            resize: none;
+            border: none;
+            border-bottom: 1px solid wheat;
+
+        }
+         textarea{
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            outline: none;
+            resize: none;
+            border: none;
+            border-bottom: 1px  solid wheat;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="tops">
+        
+        <nav>
+            <div class="logo">
+                <p>DESIGNER</p>
+            </div>
+            <ul>
+                <li><a href="home.html">HOME</a> </li>
+                <li><a href="about.html">ABOUT ME</a> </li>
+                <li><a href="services.html">SErvices</a> </li>
+                <li><a href="contact.html">CONTACT</a> </li>
+            </ul>
+        </nav>
+        <div class="contact">
+    
+            <form>
+                <h1><center>CONTACT ME</center></h1>
+                <label for="firstname">FIRST NAME</label>
+            <input type="text" name="name" placeholder="Your First name">
+           
+            <label for="lastname" id="name">LAST NAME</label>
+            <input type="text" name="name" placeholder="Your Last name">
+           
+
+            <label for="email">EMAIL</label>
+            <input type="email" name="email" placeholder="Your email">
+           
+           
+            <label for="message">MESSAGE</label>
+           <textarea rows="" cols="" placeholder="Your message"></textarea><br>
+          
+           <br>
+
+           <input type="submit" name="submit" onclick="message()"></input>
+
+           <div class="message">
+           
+            <div class="successful" id="successful">Your message was successfully sent!</div>
+            <div class="danger" id="danger">Enter all fields</div>
+    
+           </div>
+        
+    </form>
+</div>
+    </div>
+   <script src="script.js"></script>
+</body>
+</html>

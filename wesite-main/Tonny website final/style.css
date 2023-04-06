@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tops nav .logo p{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: whitesmoke;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+.tops{
+    position: relative;
+    width: 100%;
+    height: 1100px;
+    
+}
+nav{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 20px 0px;
+    align-items: center;
+    background-image: linear-gradient(red, white);
+    justify-content: space-between;
+
+}
+nav ul li{
+    float: left;
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+    padding: 0 30px;
+
+}
+nav ul li a:hover{
+    color: yellow;
+}
+.para{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.para h1{
+    font-size: 53px;
+    margin-bottom: 20px;
+    
+}
+.para h1 span{
+    color: purple;
+}
+.para p{
+    line-height: 35px;
+}
+.para a{
+    background: black;
+    padding: 10px 18px;
+    display: inline-block;
+    margin: 30px 0;
+    font-weight: bolder;
+    text-decoration: none;
+    color:brown ;
+    border: 15px;
+}
+.image{
+    width: 35%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.images img{
+    height: 50%;
+    position: absolute;
+    left:50%;
+    bottom: 0;
+
+}
+.image:hover
+{
+   right: 10px;
+}
+.message.successful{
+    color: violet;
+    position: absolute;
+    animation: button .3s linear;
+    display: none;
+}
+.message.danger{
+    color: brown;
+    position: absolute;
+}
